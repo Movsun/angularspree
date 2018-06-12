@@ -184,7 +184,7 @@ export class AuthService {
       access_token: user.access_token || [],
       client: user.client || [],
       uid: user.uid || [],
-      'X-Spree-Token': user.spree_api_key || []
+      'Auth-Token': user.spree_api_key || []
     });
   }
 
